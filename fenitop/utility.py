@@ -137,7 +137,7 @@ class Communicator():
 
         element = func_space.ufl_element()
         if self.comm.rank == 0:
-            func_space_serial = dolfinx.fem.FunctionSpace(mesh_serial, element)
+            func_space_serial = dolfinx.fem.functionspace(mesh_serial, element)
             nodes_serial = func_space_serial.tabulate_dof_coordinates()
 
             nodes_collect = np.zeros((num_global_nodes, 3))
@@ -168,7 +168,7 @@ class Communicator():
     def gather(self, func):
         """Gather data to Process 0 from all the other processes."""
         if type(func) is Function:
-            values_gather = self.comm.gather(func.vector.array, root=0)
+            values_gather = self.comm.gather(func.x.array, root=0)
         elif type(func) is PETSc.Vec:
             values_gather = self.comm.gather(func.array, root=0)
         elif type(func) is np.ndarray:
