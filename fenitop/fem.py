@@ -18,6 +18,15 @@ Reference:
   https://doi.org/10.1007/s00158-024-03818-7
 """
 
+## Parallel programming imports
+import ipyparallel as ipp
+from mpi4py import MPI
+
+comm = MPI.COMM_WORLD # MPI communicator
+
+def mpi_print(s):
+    print(f"Rank {comm.rank}: {s}")
+
 import numpy as np
 import ufl
 import basix
@@ -41,6 +50,11 @@ def form_fem(fem, opt):
     V = functionspace(mesh, element_v)
     S0 = functionspace(mesh, element_s0)
     S = functionspace(mesh, element_s)
+
+    mpi_print(f"Global dofmap size: {V.dofmap.index_map.size_global}")
+    mpi_print(f"Local dofmap size: {V.dofmap.index_map.size_local}")
+    mpi_print(f"No. ghosts: {V.dofmap.index_map.ghosts.size}")
+    #mpi_print(f"Ghosts: {V.dofmap.index_map.ghosts}")
 
     u, v = ufl.TrialFunction(V), ufl.TestFunction(V)
     u_field = Function(V)  # Displacement field
