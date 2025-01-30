@@ -18,6 +18,8 @@ Reference:
   https://doi.org/10.1007/s00158-024-03818-7
 """
 
+import sys
+
 ## Parallel programming imports
 import ipyparallel as ipp
 from mpi4py import MPI
@@ -42,18 +44,14 @@ def form_fem(fem, opt):
     """Form an FEA problem."""
     # Function spaces and functions
     mesh = fem["mesh"]
-
-    element_v = basix.ufl.element("CG", mesh.basix_cell(), 1, shape=(mesh.geometry.dim,))
-    element_s0 = basix.ufl.element("DG", mesh.basix_cell(), 0)
-    element_s = basix.ufl.element("CG", mesh.basix_cell(), 1)
     
-    V = functionspace(mesh, element_v)
-    S0 = functionspace(mesh, element_s0)
-    S = functionspace(mesh, element_s)
+    V = functionspace(mesh, ("CG", 1, (mesh.geometry.dim,)))
+    S0 = functionspace(mesh, ("DG", 0))
+    S = functionspace(mesh, ("CG", 1))
 
-    mpi_print(f"Global dofmap size: {V.dofmap.index_map.size_global}")
-    mpi_print(f"Local dofmap size: {V.dofmap.index_map.size_local}")
-    mpi_print(f"No. ghosts: {V.dofmap.index_map.ghosts.size}")
+    # mpi_print(f"Global dofmap size: {S0.dofmap.index_map.size_global}")
+    mpi_print(f"Local dofmap size: {S0.dofmap.index_map.size_local}")
+    # mpi_print(f"Ghosts: {S0.dofmap.index_map.ghosts}")
     #mpi_print(f"Ghosts: {V.dofmap.index_map.ghosts}")
 
     u, v = ufl.TrialFunction(V), ufl.TestFunction(V)
@@ -61,6 +59,11 @@ def form_fem(fem, opt):
     lambda_field = Function(V)  # Adjoint variable field
     rho_field = Function(S0)  # Density field
     rho_phys_field = Function(S)  # Physical density field
+
+    mpi_print(rho_field.x.petsc_vec.array.size)
+    # print(mesh.geometry.dofmap)    
+    # print(mesh.geometry.dofmap.size)
+    # sys.exit()
 
     # Material interpolation
     E0, nu = fem["young's modulus"], fem["poisson's ratio"]

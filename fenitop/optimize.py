@@ -18,6 +18,16 @@ Reference:
   https://doi.org/10.1007/s00158-024-03818-7
 """
 
+## Parallel programming imports
+import sys
+import ipyparallel as ipp
+from mpi4py import MPI
+
+comm = MPI.COMM_WORLD # MPI communicator
+
+def mpi_print(s):
+    print(f"Rank {comm.rank}: {s}")
+
 import numpy as np
 from mpi4py import MPI
 from scipy import sparse as sparse
@@ -30,9 +40,13 @@ def optimality_criteria(rho, rho_min, rho_max, V, dCdrho, dVdrho, move=0.05):
     comm = MPI.COMM_WORLD
     while ub-lb > 1e-4:
         mid = (lb+ub) / 2.0
-        print(rho.size, dCdrho.size, dVdrho.size)
-        rho_new = np.maximum.reduce([np.minimum.reduce(
-            [rho*(-dCdrho/(dVdrho+1e-12)/mid)**0.5, rho+move, rho_max]), rho-move, rho_min])
+        # print(rho.size, dCdrho.size, dVdrho.size)
+        # mpi_print(f"rho={rho.shape}, rho_max={rho_max.shape}, rho_min={rho_min.shape}, dCdrho={dCdrho.shape}, dVdrho={dVdrho.shape}")
+        # print(np.minimum.reduce([rho*(-dCdrho/(dVdrho+1e-12)/mid)**0.5, rho+move, rho_max]))
+        # sys.exit()
+        case1 = np.minimum.reduce([rho*(-dCdrho/(dVdrho+1e-12)/mid)**0.5, rho+move, rho_max])
+        # print(f"case1 = {case1}")
+        rho_new = np.maximum.reduce([case1, rho-move, rho_min])
         dV = comm.allreduce(dVdrho@(rho_new-rho), op=MPI.SUM)
         if V + dV > 0:
             lb = mid

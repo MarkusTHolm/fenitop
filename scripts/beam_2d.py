@@ -21,6 +21,7 @@ import sys, os
 import numpy as np
 from mpi4py import MPI
 from dolfinx.mesh import create_rectangle, CellType
+import dolfinx as dfx
 
 sys.path.append(os.path.realpath('/home/mtaho/Code/fenitop'))
 
@@ -28,10 +29,12 @@ from fenitop.topopt import topopt
 
 
 mesh = create_rectangle(MPI.COMM_WORLD, [[0, 0], [60, 20]],
-                        [200, 60], CellType.quadrilateral)
+                        [200, 60], CellType.quadrilateral,
+                        ghost_mode = dfx.cpp.mesh.GhostMode.shared_facet)
 if MPI.COMM_WORLD.rank == 0:
     mesh_serial = create_rectangle(MPI.COMM_SELF, [[0, 0], [60, 20]],
-                                   [200, 60], CellType.quadrilateral)
+                                   [200, 60], CellType.quadrilateral,
+                                   ghost_mode = dfx.cpp.mesh.GhostMode.shared_facet)
 else:
     mesh_serial = None
 

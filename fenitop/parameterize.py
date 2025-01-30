@@ -105,5 +105,4 @@ class Heaviside():
     def backward(self, vectors):
         for vector in vectors:
             if vector is not None:
-                print(vector.array.shape, self.drho.shape)
                 vector.array *= self.drho
