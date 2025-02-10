@@ -18,12 +18,13 @@ Reference:
   https://doi.org/10.1007/s00158-024-03818-7
 """
 import sys, os
+sys.path.append(os.path.realpath('/home/mtaho/Code/fenitop'))
+
 import numpy as np
 from mpi4py import MPI
 from dolfinx.mesh import create_rectangle, CellType
 import dolfinx as dfx
 
-sys.path.append(os.path.realpath('/home/mtaho/Code/fenitop'))
 
 from fenitop.topopt import topopt
 
