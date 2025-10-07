@@ -19,7 +19,7 @@ Reference:
 """
 
 import sys, os
-sys.path.append(os.path.realpath('/home/mtaho/Code/fenitop'))
+sys.path.append(os.path.realpath('/work3/mtaho/PhD/fenitop'))
 
 import numpy as np
 from mpi4py import MPI
@@ -29,10 +29,10 @@ from fenitop.topopt import topopt
 
 
 mesh = create_box(MPI.COMM_WORLD, [[0, 0, 0], [10, 30, 10]],
-                  [75, 225, 75], CellType.hexahedron)
+                  [150, 450, 150], CellType.hexahedron)
 if MPI.COMM_WORLD.rank == 0:
     mesh_serial = create_box(MPI.COMM_SELF, [[0, 0, 0], [10, 30, 10]],
-                             [75, 225, 75], CellType.hexahedron)
+                             [150, 450, 150], CellType.hexahedron)    # 75, 225, 75
 else:
     mesh_serial = None
 

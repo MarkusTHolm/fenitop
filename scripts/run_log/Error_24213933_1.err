@@ -1,0 +1,28 @@
+Loaded dependency [FEniCSx/0.9-python-3.13.2-test8]: boost/1.77.0-gcc-12.4.0
+Loaded dependency [mpi/5.0.6-gcc-12.4.0-binutils-2.42]: gcc/12.4.0-binutils-2.42
+Loaded dependency [mpi4py/4.0.2-python-3.13.2-openmpi-5.0.6]: mpi/5.0.6-gcc-12.4.0-binutils-2.42
+Loaded dependency [python3/3.13.2]: sqlite3/3.49.0
+Loaded dependency [mpi4py/4.0.2-python-3.13.2-openmpi-5.0.6]: python3/3.13.2
+Loaded dependency [petsc/3.22.3-feb-2025-gcc-12.4.0-openblas-0.3.29-non-complex-slepc-elemental-superlu]: mpi4py/4.0.2-python-3.13.2-openmpi-5.0.6
+Loaded dependency [numpy/2.2.2-python-3.13.2-openblas-0.3.29]: openblas/0.3.29
+using numpy optimized for CPU-type XeonE5-2660v3.
+Loaded dependency [scipy/1.15.1-python-3.13.2]: numpy/2.2.2-python-3.13.2-openblas-0.3.29
+using scipy optimized for CPU-type XeonE5-2660v3.
+Loaded dependency [petsc/3.22.3-feb-2025-gcc-12.4.0-openblas-0.3.29-non-complex-slepc-elemental-superlu]: scipy/1.15.1-python-3.13.2
+Loaded dependency [petsc/3.22.3-feb-2025-gcc-12.4.0-openblas-0.3.29-non-complex-slepc-elemental-superlu]: cython/3.0.12-python-3.13.2
+Loaded dependency [FEniCSx/0.9-python-3.13.2-test8]: petsc/3.22.3-feb-2025-gcc-12.4.0-openblas-0.3.29-non-complex-slepc-elemental-superlu
+Loaded dependency [FEniCSx/0.9-python-3.13.2-test8]: make/4.4.1
+Loaded dependency [FEniCSx/0.9-python-3.13.2-test8]: cmake/3.31.3
+Loaded module: FEniCSx/0.9-python-3.13.2-test8
+
+Loading FEniCSx/0.9-python-3.13.2-test8
+  Loading requirement: boost/1.77.0-gcc-12.4.0 gcc/12.4.0-binutils-2.42
+    mpi/5.0.6-gcc-12.4.0-binutils-2.42 sqlite3/3.49.0 python3/3.13.2
+    mpi4py/4.0.2-python-3.13.2-openmpi-5.0.6 openblas/0.3.29
+    numpy/2.2.2-python-3.13.2-openblas-0.3.29 scipy/1.15.1-python-3.13.2
+    cython/3.0.12-python-3.13.2
+    petsc/3.22.3-feb-2025-gcc-12.4.0-openblas-0.3.29-non-complex-slepc-elemental-superlu make/4.4.1 cmake/3.31.3
+--------------------------------------------------------------------------
+prterun noticed that process rank 0 with PID 1463988 on node n-62-29-13 exited on
+signal 9 (Killed).
+--------------------------------------------------------------------------

@@ -1,0 +1,506 @@
+/usr/share/Modules/bin:/lsf/local/bin/:/lsf/10.1/linux3.10-glibc2.17-x86_64/etc:/lsf/10.1/linux3.10-glibc2.17-x86_64/bin:/appl9/latex/TexLive24/bin/x86_64-linux:/appl/Modules/4.8.0/bin:/apps9/dcc/bin:/usr/bin:/bin:/usr/local/bin:/opt/puppetlabs/bin:.
+/work3/mtaho/PhD/fenitop/scripts
+Start time:
+Tue Feb 25 07:48:52 CET 2025
+No. of cores = 64
+No. of processes = 64
+No. of OMP threads = 1
+opt_iter: 1, opt_time: 6.51 (s), beta: 1, C: 1443.465, V: 0.071, U: 0.000, change: 0.020
+opt_iter: 2, opt_time: 4.1 (s), beta: 1, C: 758.201, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 3, opt_time: 4.02 (s), beta: 1, C: 518.241, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 4, opt_time: 4.1 (s), beta: 1, C: 392.776, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 5, opt_time: 4.19 (s), beta: 1, C: 313.331, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 6, opt_time: 4.3 (s), beta: 1, C: 257.253, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 7, opt_time: 4.35 (s), beta: 1, C: 214.587, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 8, opt_time: 4.27 (s), beta: 1, C: 180.862, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 9, opt_time: 4.37 (s), beta: 1, C: 153.732, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 10, opt_time: 4.83 (s), beta: 1, C: 131.963, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 11, opt_time: 4.73 (s), beta: 1, C: 114.570, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 12, opt_time: 4.87 (s), beta: 1, C: 100.713, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 13, opt_time: 4.99 (s), beta: 1, C: 89.612, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 14, opt_time: 5.1 (s), beta: 1, C: 80.635, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 15, opt_time: 5.23 (s), beta: 1, C: 73.286, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 16, opt_time: 5.43 (s), beta: 1, C: 67.204, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 17, opt_time: 5.56 (s), beta: 1, C: 62.108, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 18, opt_time: 5.69 (s), beta: 1, C: 57.794, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 19, opt_time: 5.76 (s), beta: 1, C: 54.102, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 20, opt_time: 5.9 (s), beta: 1, C: 50.911, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 21, opt_time: 6.03 (s), beta: 1, C: 48.130, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 22, opt_time: 6.08 (s), beta: 1, C: 45.686, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 23, opt_time: 6.14 (s), beta: 1, C: 43.522, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 24, opt_time: 6.28 (s), beta: 1, C: 41.595, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 25, opt_time: 6.43 (s), beta: 1, C: 39.867, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 26, opt_time: 6.54 (s), beta: 1, C: 38.310, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 27, opt_time: 6.62 (s), beta: 1, C: 36.898, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 28, opt_time: 6.67 (s), beta: 1, C: 35.614, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 29, opt_time: 6.75 (s), beta: 1, C: 34.439, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 30, opt_time: 6.87 (s), beta: 1, C: 33.362, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 31, opt_time: 6.93 (s), beta: 1, C: 32.370, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 32, opt_time: 7.05 (s), beta: 1, C: 31.453, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 33, opt_time: 7.14 (s), beta: 1, C: 30.603, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 34, opt_time: 7.13 (s), beta: 1, C: 29.812, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 35, opt_time: 7.17 (s), beta: 1, C: 29.075, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 36, opt_time: 7.26 (s), beta: 1, C: 28.386, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 37, opt_time: 7.34 (s), beta: 1, C: 27.739, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 38, opt_time: 7.38 (s), beta: 1, C: 27.132, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 39, opt_time: 7.53 (s), beta: 1, C: 26.560, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 40, opt_time: 7.66 (s), beta: 1, C: 26.020, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 41, opt_time: 7.63 (s), beta: 1, C: 25.509, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 42, opt_time: 7.71 (s), beta: 1, C: 25.024, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 43, opt_time: 7.95 (s), beta: 1, C: 24.564, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 44, opt_time: 8.19 (s), beta: 1, C: 24.124, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 45, opt_time: 8.23 (s), beta: 1, C: 23.704, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 46, opt_time: 8.25 (s), beta: 1, C: 23.302, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 47, opt_time: 8.12 (s), beta: 1, C: 22.914, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 48, opt_time: 8.4 (s), beta: 1, C: 22.704, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 49, opt_time: 8.42 (s), beta: 1, C: 22.524, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 50, opt_time: 8.99 (s), beta: 2, C: 26.920, V: 0.069, U: 0.000, change: 0.020
+opt_iter: 51, opt_time: 8.63 (s), beta: 2, C: 23.433, V: 0.074, U: 0.000, change: 0.020
+opt_iter: 52, opt_time: 8.67 (s), beta: 2, C: 20.359, V: 0.079, U: 0.000, change: 0.020
+opt_iter: 53, opt_time: 8.53 (s), beta: 2, C: 19.569, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 54, opt_time: 8.53 (s), beta: 2, C: 19.224, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 55, opt_time: 8.79 (s), beta: 2, C: 18.939, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 56, opt_time: 8.61 (s), beta: 2, C: 18.696, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 57, opt_time: 8.78 (s), beta: 2, C: 18.484, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 58, opt_time: 8.85 (s), beta: 2, C: 18.297, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 59, opt_time: 8.59 (s), beta: 2, C: 18.132, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 60, opt_time: 8.61 (s), beta: 2, C: 17.985, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 61, opt_time: 8.88 (s), beta: 2, C: 17.853, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 62, opt_time: 8.67 (s), beta: 2, C: 17.734, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 63, opt_time: 9.04 (s), beta: 2, C: 17.626, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 64, opt_time: 8.78 (s), beta: 2, C: 17.527, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 65, opt_time: 9.09 (s), beta: 2, C: 17.437, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 66, opt_time: 8.9 (s), beta: 2, C: 17.354, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 67, opt_time: 9.12 (s), beta: 2, C: 17.277, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 68, opt_time: 8.98 (s), beta: 2, C: 17.206, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 69, opt_time: 9.18 (s), beta: 2, C: 17.141, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 70, opt_time: 9.24 (s), beta: 2, C: 17.080, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 71, opt_time: 9.2 (s), beta: 2, C: 17.023, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 72, opt_time: 9.07 (s), beta: 2, C: 16.971, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 73, opt_time: 9.27 (s), beta: 2, C: 16.922, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 74, opt_time: 9.3 (s), beta: 2, C: 16.877, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 75, opt_time: 9.28 (s), beta: 2, C: 16.835, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 76, opt_time: 9.3 (s), beta: 2, C: 16.797, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 77, opt_time: 9.06 (s), beta: 2, C: 16.762, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 78, opt_time: 9.34 (s), beta: 2, C: 16.730, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 79, opt_time: 9.15 (s), beta: 2, C: 16.700, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 80, opt_time: 9.3 (s), beta: 2, C: 16.674, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 81, opt_time: 9.18 (s), beta: 2, C: 16.650, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 82, opt_time: 9.39 (s), beta: 2, C: 16.628, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 83, opt_time: 9.37 (s), beta: 2, C: 16.608, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 84, opt_time: 9.07 (s), beta: 2, C: 16.589, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 85, opt_time: 9.14 (s), beta: 2, C: 16.572, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 86, opt_time: 9.36 (s), beta: 2, C: 16.556, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 87, opt_time: 9.37 (s), beta: 2, C: 16.541, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 88, opt_time: 9.36 (s), beta: 2, C: 16.527, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 89, opt_time: 9.11 (s), beta: 2, C: 16.514, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 90, opt_time: 9.35 (s), beta: 2, C: 16.501, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 91, opt_time: 9.1 (s), beta: 2, C: 16.490, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 92, opt_time: 9.36 (s), beta: 2, C: 16.479, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 93, opt_time: 9.08 (s), beta: 2, C: 16.469, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 94, opt_time: 9.37 (s), beta: 2, C: 16.460, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 95, opt_time: 9.13 (s), beta: 2, C: 16.450, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 96, opt_time: 9.41 (s), beta: 2, C: 16.442, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 97, opt_time: 9.07 (s), beta: 2, C: 16.434, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 98, opt_time: 9.37 (s), beta: 2, C: 16.426, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 99, opt_time: 9.14 (s), beta: 2, C: 16.418, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 100, opt_time: 10.9 (s), beta: 4, C: 19.219, V: 0.061, U: 0.000, change: 0.020
+opt_iter: 101, opt_time: 10.5 (s), beta: 4, C: 17.791, V: 0.063, U: 0.000, change: 0.020
+opt_iter: 102, opt_time: 10.7 (s), beta: 4, C: 16.169, V: 0.066, U: 0.000, change: 0.020
+opt_iter: 103, opt_time: 10.3 (s), beta: 4, C: 14.581, V: 0.070, U: 0.000, change: 0.020
+opt_iter: 104, opt_time: 10.1 (s), beta: 4, C: 13.139, V: 0.073, U: 0.000, change: 0.020
+opt_iter: 105, opt_time: 9.88 (s), beta: 4, C: 11.855, V: 0.078, U: 0.000, change: 0.020
+opt_iter: 106, opt_time: 9.75 (s), beta: 4, C: 11.183, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 107, opt_time: 9.75 (s), beta: 4, C: 11.044, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 108, opt_time: 10.1 (s), beta: 4, C: 10.925, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 109, opt_time: 9.77 (s), beta: 4, C: 10.823, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 110, opt_time: 10 (s), beta: 4, C: 10.733, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 111, opt_time: 9.92 (s), beta: 4, C: 10.654, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 112, opt_time: 10.2 (s), beta: 4, C: 10.583, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 113, opt_time: 9.91 (s), beta: 4, C: 10.519, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 114, opt_time: 10.2 (s), beta: 4, C: 10.462, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 115, opt_time: 9.9 (s), beta: 4, C: 10.410, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 116, opt_time: 10.1 (s), beta: 4, C: 10.363, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 117, opt_time: 9.87 (s), beta: 4, C: 10.321, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 118, opt_time: 10.2 (s), beta: 4, C: 10.282, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 119, opt_time: 9.98 (s), beta: 4, C: 10.246, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 120, opt_time: 10.1 (s), beta: 4, C: 10.213, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 121, opt_time: 9.87 (s), beta: 4, C: 10.183, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 122, opt_time: 10.2 (s), beta: 4, C: 10.155, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 123, opt_time: 9.97 (s), beta: 4, C: 10.129, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 124, opt_time: 10.2 (s), beta: 4, C: 10.105, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 125, opt_time: 9.89 (s), beta: 4, C: 10.083, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 126, opt_time: 10.2 (s), beta: 4, C: 10.062, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 127, opt_time: 9.96 (s), beta: 4, C: 10.043, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 128, opt_time: 10.2 (s), beta: 4, C: 10.025, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 129, opt_time: 9.91 (s), beta: 4, C: 10.008, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 130, opt_time: 10.2 (s), beta: 4, C: 9.992, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 131, opt_time: 9.72 (s), beta: 4, C: 9.977, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 132, opt_time: 10.2 (s), beta: 4, C: 9.962, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 133, opt_time: 9.92 (s), beta: 4, C: 9.949, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 134, opt_time: 10.1 (s), beta: 4, C: 9.936, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 135, opt_time: 9.96 (s), beta: 4, C: 9.924, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 136, opt_time: 10 (s), beta: 4, C: 9.913, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 137, opt_time: 10.2 (s), beta: 4, C: 9.902, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 138, opt_time: 10.3 (s), beta: 4, C: 9.892, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 139, opt_time: 9.77 (s), beta: 4, C: 9.882, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 140, opt_time: 10.3 (s), beta: 4, C: 9.873, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 141, opt_time: 10.2 (s), beta: 4, C: 9.864, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 142, opt_time: 10.3 (s), beta: 4, C: 9.856, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 143, opt_time: 9.77 (s), beta: 4, C: 9.849, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 144, opt_time: 10.3 (s), beta: 4, C: 9.842, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 145, opt_time: 10.2 (s), beta: 4, C: 9.835, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 146, opt_time: 10.3 (s), beta: 4, C: 9.829, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 147, opt_time: 9.79 (s), beta: 4, C: 9.823, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 148, opt_time: 10.3 (s), beta: 4, C: 9.817, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 149, opt_time: 10.2 (s), beta: 4, C: 9.813, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 150, opt_time: 11.7 (s), beta: 8, C: 8.056, V: 0.067, U: 0.000, change: 0.020
+opt_iter: 151, opt_time: 10.9 (s), beta: 8, C: 7.365, V: 0.070, U: 0.000, change: 0.020
+opt_iter: 152, opt_time: 11.2 (s), beta: 8, C: 6.676, V: 0.074, U: 0.000, change: 0.020
+opt_iter: 153, opt_time: 11.2 (s), beta: 8, C: 6.081, V: 0.078, U: 0.000, change: 0.020
+opt_iter: 154, opt_time: 10.9 (s), beta: 8, C: 5.776, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 155, opt_time: 10.4 (s), beta: 8, C: 5.758, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 156, opt_time: 10.7 (s), beta: 8, C: 5.744, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 157, opt_time: 10.9 (s), beta: 8, C: 5.732, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 158, opt_time: 10.9 (s), beta: 8, C: 5.721, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 159, opt_time: 10.5 (s), beta: 8, C: 5.712, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 160, opt_time: 10.9 (s), beta: 8, C: 5.703, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 161, opt_time: 10.7 (s), beta: 8, C: 5.695, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 162, opt_time: 10.9 (s), beta: 8, C: 5.687, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 163, opt_time: 10.4 (s), beta: 8, C: 5.680, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 164, opt_time: 11 (s), beta: 8, C: 5.673, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 165, opt_time: 11.1 (s), beta: 8, C: 5.666, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 166, opt_time: 11 (s), beta: 8, C: 5.660, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 167, opt_time: 10.5 (s), beta: 8, C: 5.654, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 168, opt_time: 11.1 (s), beta: 8, C: 5.648, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 169, opt_time: 11.1 (s), beta: 8, C: 5.642, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 170, opt_time: 11 (s), beta: 8, C: 5.637, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 171, opt_time: 10.5 (s), beta: 8, C: 5.632, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 172, opt_time: 11.1 (s), beta: 8, C: 5.627, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 173, opt_time: 11 (s), beta: 8, C: 5.622, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 174, opt_time: 11 (s), beta: 8, C: 5.617, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 175, opt_time: 10.5 (s), beta: 8, C: 5.613, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 176, opt_time: 11 (s), beta: 8, C: 5.609, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 177, opt_time: 11 (s), beta: 8, C: 5.604, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 178, opt_time: 11.1 (s), beta: 8, C: 5.600, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 179, opt_time: 10.5 (s), beta: 8, C: 5.596, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 180, opt_time: 11.2 (s), beta: 8, C: 5.593, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 181, opt_time: 11.1 (s), beta: 8, C: 5.589, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 182, opt_time: 11 (s), beta: 8, C: 5.585, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 183, opt_time: 10.5 (s), beta: 8, C: 5.582, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 184, opt_time: 11 (s), beta: 8, C: 5.579, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 185, opt_time: 11.1 (s), beta: 8, C: 5.575, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 186, opt_time: 11.1 (s), beta: 8, C: 5.572, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 187, opt_time: 10.5 (s), beta: 8, C: 5.569, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 188, opt_time: 11 (s), beta: 8, C: 5.566, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 189, opt_time: 11 (s), beta: 8, C: 5.563, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 190, opt_time: 11 (s), beta: 8, C: 5.560, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 191, opt_time: 10.5 (s), beta: 8, C: 5.558, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 192, opt_time: 11.1 (s), beta: 8, C: 5.555, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 193, opt_time: 11 (s), beta: 8, C: 5.552, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 194, opt_time: 11.1 (s), beta: 8, C: 5.550, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 195, opt_time: 10.5 (s), beta: 8, C: 5.547, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 196, opt_time: 11 (s), beta: 8, C: 5.545, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 197, opt_time: 11 (s), beta: 8, C: 5.543, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 198, opt_time: 11.1 (s), beta: 8, C: 5.540, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 199, opt_time: 10.6 (s), beta: 8, C: 5.538, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 200, opt_time: 11.5 (s), beta: 16, C: 4.199, V: 0.078, U: 0.000, change: 0.020
+opt_iter: 201, opt_time: 11.5 (s), beta: 16, C: 4.084, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 202, opt_time: 11.4 (s), beta: 16, C: 4.079, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 203, opt_time: 11.2 (s), beta: 16, C: 4.075, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 204, opt_time: 11.1 (s), beta: 16, C: 4.071, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 205, opt_time: 11.5 (s), beta: 16, C: 4.067, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 206, opt_time: 11.5 (s), beta: 16, C: 4.064, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 207, opt_time: 11.2 (s), beta: 16, C: 4.060, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 208, opt_time: 11.2 (s), beta: 16, C: 4.057, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 209, opt_time: 11.4 (s), beta: 16, C: 4.054, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 210, opt_time: 11.4 (s), beta: 16, C: 4.052, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 211, opt_time: 11.1 (s), beta: 16, C: 4.049, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 212, opt_time: 11.2 (s), beta: 16, C: 4.046, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 213, opt_time: 11.4 (s), beta: 16, C: 4.044, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 214, opt_time: 11.4 (s), beta: 16, C: 4.042, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 215, opt_time: 11.5 (s), beta: 16, C: 4.039, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 216, opt_time: 10.9 (s), beta: 16, C: 4.037, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 217, opt_time: 11.5 (s), beta: 16, C: 4.035, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 218, opt_time: 11.4 (s), beta: 16, C: 4.033, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 219, opt_time: 11.5 (s), beta: 16, C: 4.031, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 220, opt_time: 11.1 (s), beta: 16, C: 4.029, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 221, opt_time: 11.2 (s), beta: 16, C: 4.027, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 222, opt_time: 11.4 (s), beta: 16, C: 4.025, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 223, opt_time: 11.5 (s), beta: 16, C: 4.023, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 224, opt_time: 11.1 (s), beta: 16, C: 4.021, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 225, opt_time: 11.5 (s), beta: 16, C: 4.019, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 226, opt_time: 11.1 (s), beta: 16, C: 4.018, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 227, opt_time: 11.4 (s), beta: 16, C: 4.016, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 228, opt_time: 11.2 (s), beta: 16, C: 4.014, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 229, opt_time: 11.5 (s), beta: 16, C: 4.012, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 230, opt_time: 11.4 (s), beta: 16, C: 4.011, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 231, opt_time: 11 (s), beta: 16, C: 4.009, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 232, opt_time: 11.1 (s), beta: 16, C: 4.007, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 233, opt_time: 11.5 (s), beta: 16, C: 4.006, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 234, opt_time: 11.5 (s), beta: 16, C: 4.004, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 235, opt_time: 11.5 (s), beta: 16, C: 4.003, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 236, opt_time: 11 (s), beta: 16, C: 4.001, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 237, opt_time: 11.5 (s), beta: 16, C: 3.999, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 238, opt_time: 11.5 (s), beta: 16, C: 3.998, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 239, opt_time: 11.5 (s), beta: 16, C: 3.996, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 240, opt_time: 11.2 (s), beta: 16, C: 3.995, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 241, opt_time: 11.2 (s), beta: 16, C: 3.994, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 242, opt_time: 11.5 (s), beta: 16, C: 3.992, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 243, opt_time: 11.5 (s), beta: 16, C: 3.991, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 244, opt_time: 11.3 (s), beta: 16, C: 3.989, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 245, opt_time: 11.6 (s), beta: 16, C: 3.988, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 246, opt_time: 11.3 (s), beta: 16, C: 3.987, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 247, opt_time: 11.6 (s), beta: 16, C: 3.986, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 248, opt_time: 11.3 (s), beta: 16, C: 3.984, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 249, opt_time: 11.6 (s), beta: 16, C: 3.983, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 250, opt_time: 11.4 (s), beta: 32, C: 3.455, V: 0.081, U: 0.000, change: 0.020
+opt_iter: 251, opt_time: 11.8 (s), beta: 32, C: 3.478, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 252, opt_time: 11.5 (s), beta: 32, C: 3.476, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 253, opt_time: 11.7 (s), beta: 32, C: 3.474, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 254, opt_time: 11.9 (s), beta: 32, C: 3.472, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 255, opt_time: 11.4 (s), beta: 32, C: 3.470, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 256, opt_time: 11.6 (s), beta: 32, C: 3.469, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 257, opt_time: 11.7 (s), beta: 32, C: 3.468, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 258, opt_time: 11.8 (s), beta: 32, C: 3.466, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 259, opt_time: 11.7 (s), beta: 32, C: 3.465, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 260, opt_time: 11.6 (s), beta: 32, C: 3.463, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 261, opt_time: 11.8 (s), beta: 32, C: 3.462, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 262, opt_time: 11.9 (s), beta: 32, C: 3.461, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 263, opt_time: 11.8 (s), beta: 32, C: 3.460, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 264, opt_time: 11.6 (s), beta: 32, C: 3.459, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 265, opt_time: 11.8 (s), beta: 32, C: 3.458, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 266, opt_time: 12 (s), beta: 32, C: 3.457, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 267, opt_time: 11.8 (s), beta: 32, C: 3.456, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 268, opt_time: 11.6 (s), beta: 32, C: 3.455, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 269, opt_time: 11.8 (s), beta: 32, C: 3.454, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 270, opt_time: 12 (s), beta: 32, C: 3.453, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 271, opt_time: 11.8 (s), beta: 32, C: 3.452, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 272, opt_time: 11.7 (s), beta: 32, C: 3.451, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 273, opt_time: 11.8 (s), beta: 32, C: 3.450, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 274, opt_time: 12 (s), beta: 32, C: 3.449, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 275, opt_time: 11.8 (s), beta: 32, C: 3.449, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 276, opt_time: 11.8 (s), beta: 32, C: 3.447, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 277, opt_time: 11.8 (s), beta: 32, C: 3.447, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 278, opt_time: 12 (s), beta: 32, C: 3.445, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 279, opt_time: 11.8 (s), beta: 32, C: 3.445, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 280, opt_time: 11.7 (s), beta: 32, C: 3.444, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 281, opt_time: 11.9 (s), beta: 32, C: 3.444, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 282, opt_time: 12 (s), beta: 32, C: 3.442, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 283, opt_time: 11.7 (s), beta: 32, C: 3.442, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 284, opt_time: 11.7 (s), beta: 32, C: 3.441, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 285, opt_time: 11.9 (s), beta: 32, C: 3.440, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 286, opt_time: 11.8 (s), beta: 32, C: 3.439, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 287, opt_time: 11.9 (s), beta: 32, C: 3.439, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 288, opt_time: 11.7 (s), beta: 32, C: 3.437, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 289, opt_time: 11.9 (s), beta: 32, C: 3.437, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 290, opt_time: 11.8 (s), beta: 32, C: 3.436, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 291, opt_time: 11.8 (s), beta: 32, C: 3.436, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 292, opt_time: 11.7 (s), beta: 32, C: 3.434, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 293, opt_time: 11.9 (s), beta: 32, C: 3.434, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 294, opt_time: 11.8 (s), beta: 32, C: 3.433, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 295, opt_time: 12 (s), beta: 32, C: 3.433, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 296, opt_time: 11.7 (s), beta: 32, C: 3.431, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 297, opt_time: 11.9 (s), beta: 32, C: 3.431, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 298, opt_time: 11.7 (s), beta: 32, C: 3.429, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 299, opt_time: 11.9 (s), beta: 32, C: 3.429, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 300, opt_time: 11.6 (s), beta: 64, C: 3.238, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 301, opt_time: 11.8 (s), beta: 64, C: 3.249, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 302, opt_time: 11.7 (s), beta: 64, C: 3.250, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 303, opt_time: 11.8 (s), beta: 64, C: 3.248, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 304, opt_time: 11.7 (s), beta: 64, C: 3.249, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 305, opt_time: 11.9 (s), beta: 64, C: 3.247, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 306, opt_time: 11.8 (s), beta: 64, C: 3.247, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 307, opt_time: 11.8 (s), beta: 64, C: 3.246, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 308, opt_time: 11.7 (s), beta: 64, C: 3.245, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 309, opt_time: 11.8 (s), beta: 64, C: 3.245, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 310, opt_time: 11.7 (s), beta: 64, C: 3.244, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 311, opt_time: 11.8 (s), beta: 64, C: 3.243, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 312, opt_time: 11.6 (s), beta: 64, C: 3.242, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 313, opt_time: 11.8 (s), beta: 64, C: 3.242, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 314, opt_time: 11.6 (s), beta: 64, C: 3.241, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 315, opt_time: 11.8 (s), beta: 64, C: 3.241, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 316, opt_time: 11.6 (s), beta: 64, C: 3.240, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 317, opt_time: 11.8 (s), beta: 64, C: 3.240, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 318, opt_time: 12 (s), beta: 64, C: 3.239, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 319, opt_time: 11.5 (s), beta: 64, C: 3.240, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 320, opt_time: 11.6 (s), beta: 64, C: 3.239, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 321, opt_time: 11.8 (s), beta: 64, C: 3.240, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 322, opt_time: 11.9 (s), beta: 64, C: 3.238, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 323, opt_time: 11.5 (s), beta: 64, C: 3.239, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 324, opt_time: 11.5 (s), beta: 64, C: 3.238, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 325, opt_time: 11.9 (s), beta: 64, C: 3.239, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 326, opt_time: 11.9 (s), beta: 64, C: 3.237, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 327, opt_time: 11.5 (s), beta: 64, C: 3.238, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 328, opt_time: 11.6 (s), beta: 64, C: 3.237, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 329, opt_time: 11.9 (s), beta: 64, C: 3.238, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 330, opt_time: 12 (s), beta: 64, C: 3.237, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 331, opt_time: 11.5 (s), beta: 64, C: 3.237, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 332, opt_time: 11.5 (s), beta: 64, C: 3.236, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 333, opt_time: 11.8 (s), beta: 64, C: 3.237, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 334, opt_time: 11.9 (s), beta: 64, C: 3.236, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 335, opt_time: 11.5 (s), beta: 64, C: 3.237, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 336, opt_time: 11.5 (s), beta: 64, C: 3.235, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 337, opt_time: 11.9 (s), beta: 64, C: 3.236, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 338, opt_time: 11.9 (s), beta: 64, C: 3.235, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 339, opt_time: 11.6 (s), beta: 64, C: 3.236, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 340, opt_time: 11.7 (s), beta: 64, C: 3.235, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 341, opt_time: 11.9 (s), beta: 64, C: 3.236, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 342, opt_time: 11.8 (s), beta: 64, C: 3.234, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 343, opt_time: 11.6 (s), beta: 64, C: 3.235, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 344, opt_time: 11.8 (s), beta: 64, C: 3.234, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 345, opt_time: 11.9 (s), beta: 64, C: 3.235, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 346, opt_time: 11.9 (s), beta: 64, C: 3.234, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 347, opt_time: 11.6 (s), beta: 64, C: 3.235, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 348, opt_time: 11.7 (s), beta: 64, C: 3.233, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 349, opt_time: 11.6 (s), beta: 64, C: 3.235, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 350, opt_time: 11.4 (s), beta: 128, C: 3.165, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 351, opt_time: 11.2 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 352, opt_time: 11.4 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 353, opt_time: 11.5 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 354, opt_time: 11.6 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 355, opt_time: 11.3 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 356, opt_time: 11.4 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 357, opt_time: 11.6 (s), beta: 128, C: 3.169, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 358, opt_time: 11.5 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 359, opt_time: 11 (s), beta: 128, C: 3.169, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 360, opt_time: 11.2 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 361, opt_time: 11.5 (s), beta: 128, C: 3.169, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 362, opt_time: 11.3 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 363, opt_time: 11.1 (s), beta: 128, C: 3.169, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 364, opt_time: 11.3 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 365, opt_time: 11.6 (s), beta: 128, C: 3.169, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 366, opt_time: 11.3 (s), beta: 128, C: 3.166, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 367, opt_time: 11.2 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 368, opt_time: 11.2 (s), beta: 128, C: 3.166, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 369, opt_time: 11.6 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 370, opt_time: 11.3 (s), beta: 128, C: 3.166, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 371, opt_time: 11.3 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 372, opt_time: 11.3 (s), beta: 128, C: 3.166, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 373, opt_time: 11.7 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 374, opt_time: 11.3 (s), beta: 128, C: 3.165, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 375, opt_time: 11.3 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 376, opt_time: 11.3 (s), beta: 128, C: 3.165, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 377, opt_time: 11.6 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 378, opt_time: 11.3 (s), beta: 128, C: 3.165, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 379, opt_time: 11.3 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 380, opt_time: 11.3 (s), beta: 128, C: 3.165, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 381, opt_time: 11.7 (s), beta: 128, C: 3.168, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 382, opt_time: 11.3 (s), beta: 128, C: 3.165, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 383, opt_time: 11.3 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 384, opt_time: 11.3 (s), beta: 128, C: 3.164, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 385, opt_time: 11.7 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 386, opt_time: 11.3 (s), beta: 128, C: 3.164, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 387, opt_time: 11.3 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 388, opt_time: 11.3 (s), beta: 128, C: 3.164, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 389, opt_time: 11.7 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 390, opt_time: 11.3 (s), beta: 128, C: 3.164, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 391, opt_time: 11.1 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 392, opt_time: 11.4 (s), beta: 128, C: 3.164, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 393, opt_time: 11.6 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 394, opt_time: 11.3 (s), beta: 128, C: 3.163, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 395, opt_time: 11.1 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 396, opt_time: 11.5 (s), beta: 128, C: 3.163, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 397, opt_time: 11.6 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 398, opt_time: 11.3 (s), beta: 128, C: 3.163, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 399, opt_time: 11.4 (s), beta: 128, C: 3.167, V: 0.080, U: 0.000, change: 0.020
+opt_iter: 400, opt_time: 11.1 (s), beta: 128, C: 3.163, V: 0.080, U: 0.000, change: 0.020
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24200784[1]: <fenitop[1]> in cluster <dcc> Exited
+
+Job <fenitop[1]> was submitted from host <n-62-30-1> by user <mtaho> in cluster <dcc> at Tue Feb 25 07:48:50 2025
+Job was executed on host(s) <8*n-62-29-36>, in queue <hpc>, as user <mtaho> in cluster <dcc> at Tue Feb 25 07:48:52 2025
+                            <16*n-62-29-14>
+                            <16*n-62-29-15>
+                            <16*n-62-29-16>
+                            <8*n-62-29-18>
+</zhome/b1/8/116943> was used as the home directory.
+</work3/mtaho/PhD/fenitop/scripts> was used as the working directory.
+Started at Tue Feb 25 07:48:52 2025
+Terminated at Tue Feb 25 09:27:06 2025
+Results reported at Tue Feb 25 09:27:06 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh 
+### General options 
+### -- specify queue -- 
+#BSUB -q hpc
+### -- Set number of parameters to sweep + set the job name 
+#BSUB -J fenitop[1] #96 # IMPORTANT!!!!
+### -- ask for number of cores (default: 1) -- 
+#BSUB -n 64 # 16, 36, 64
+### -- specify that the cores must be on the same host -- 
+##BSUB -R "span[hosts=1]"
+#BSUB -R "span[block=8]"
+### -- specify that we need x GB of memory per core/slot -- 
+#BSUB -R "rusage[mem=1GB]"
+### -- specify that we want the job to get killed if it exceeds x GB per core/slot -- 
+#BSUB -M 1GB
+### -- set walltime limit: hh:mm -- 
+#BSUB -W 6:00 
+### -- set the email address -- 
+# please uncomment the following line and put in your e-mail address,
+# if you want to receive e-mail notifications on a non-default address
+##BSUB -u YOURMAIL@SOMEWHERE.COM
+### -- send notification at start -- 
+##BSUB -B 
+### -- send notification at completion -- 
+##BSUB -N 
+### -- Specify the output and error file. %J is the job-id -- 
+### -- -o and -e mean append, -oo and -eo mean overwrite -- 
+#BSUB -o ./run_log/Output_%J_%I.out 
+#BSUB -e ./run_log/Error_%J_%I.err 
+
+######### program to run
+echo $PATH
+pwd
+echo "Start time:"
+date
+sleep "$((LSB_JOBINDEX))"
+
+ulimit -s unlimited
+
+# Export number of threads
+numCores=$LSB_DJOB_NUMPROC
+OMP_NUM_THREADS=1
+numProcs=$(($LSB_DJOB_NUMPROC / $OMP_NUM_THREADS))
+export numCores; echo "No. of cores =" $numCores
+export numProcs; echo "No. of processes =" $numProcs
+export OMP_NUM_THREADS; echo "No. of OMP threads =" $OMP_NUM_THREADS
+
+# Set file paths
+projectDir="/work3/mtaho/PhD/fenitop"
+filePath_run=$projectDir/scripts/beam_3d.py
+
+(... more ...)
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with signal termination: 14.
+
+Resource usage summary:
+
+    CPU time :                                   266199.00 sec.
+    Max Memory :                                 52998 MB
+    Average Memory :                             43617.14 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               12538.00 MB
+    Max Swap :                                   -
+    Max Processes :                              77
+    Max Threads :                                276
+    Run time :                                   5894 sec.
+    Turnaround time :                            5896 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./run_log/Error_24200784_1.err> for stderr output of this job.
+

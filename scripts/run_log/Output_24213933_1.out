@@ -1,0 +1,108 @@
+/usr/share/Modules/bin:/lsf/local/bin/:/lsf/10.1/linux3.10-glibc2.17-x86_64/etc:/lsf/10.1/linux3.10-glibc2.17-x86_64/bin:/appl9/latex/TexLive24/bin/x86_64-linux:/appl/Modules/4.8.0/bin:/apps9/dcc/bin:/usr/bin:/bin:/usr/local/bin:/opt/puppetlabs/bin:.
+/work3/mtaho/PhD/fenitop/scripts
+Start time:
+Wed Feb 26 07:40:35 CET 2025
+No. of cores = 96
+No. of processes = 96
+No. of OMP threads = 1
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 24213933[1]: <fenitop[1]> in cluster <dcc> Exited
+
+Job <fenitop[1]> was submitted from host <gbarlogin1> by user <mtaho> in cluster <dcc> at Wed Feb 26 07:40:32 2025
+Job was executed on host(s) <8*n-62-29-13>, in queue <hpc>, as user <mtaho> in cluster <dcc> at Wed Feb 26 07:40:34 2025
+                            <8*n-62-29-5>
+                            <16*n-62-29-10>
+                            <16*n-62-29-18>
+                            <16*n-62-29-19>
+                            <16*n-62-29-20>
+                            <16*n-62-29-21>
+</zhome/b1/8/116943> was used as the home directory.
+</work3/mtaho/PhD/fenitop/scripts> was used as the working directory.
+Started at Wed Feb 26 07:40:34 2025
+Terminated at Wed Feb 26 07:41:49 2025
+Results reported at Wed Feb 26 07:41:49 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh 
+### General options 
+### -- specify queue -- 
+#BSUB -q hpc
+### -- Set number of parameters to sweep + set the job name 
+#BSUB -J fenitop[1] #96 # IMPORTANT!!!!
+### -- ask for number of cores (default: 1) -- 
+#BSUB -n 96 # 16, 36, 64
+### -- specify that the cores must be on the same host -- 
+##BSUB -R "span[hosts=1]"
+#BSUB -R "span[block=8]"
+### -- specify that we need x GB of memory per core/slot -- 
+#BSUB -R "rusage[mem=1GB]"
+### -- specify that we want the job to get killed if it exceeds x GB per core/slot -- 
+#BSUB -M 1GB
+### -- set walltime limit: hh:mm -- 
+#BSUB -W 6:00 
+### -- set the email address -- 
+# please uncomment the following line and put in your e-mail address,
+# if you want to receive e-mail notifications on a non-default address
+##BSUB -u YOURMAIL@SOMEWHERE.COM
+### -- send notification at start -- 
+##BSUB -B 
+### -- send notification at completion -- 
+##BSUB -N 
+### -- Specify the output and error file. %J is the job-id -- 
+### -- -o and -e mean append, -oo and -eo mean overwrite -- 
+#BSUB -o ./run_log/Output_%J_%I.out 
+#BSUB -e ./run_log/Error_%J_%I.err 
+
+######### program to run
+echo $PATH
+pwd
+echo "Start time:"
+date
+sleep "$((LSB_JOBINDEX))"
+
+ulimit -s unlimited
+
+# Export number of threads
+numCores=$LSB_DJOB_NUMPROC
+OMP_NUM_THREADS=1
+numProcs=$(($LSB_DJOB_NUMPROC / $OMP_NUM_THREADS))
+export numCores; echo "No. of cores =" $numCores
+export numProcs; echo "No. of processes =" $numProcs
+export OMP_NUM_THREADS; echo "No. of OMP threads =" $OMP_NUM_THREADS
+
+# Set file paths
+projectDir="/work3/mtaho/PhD/fenitop"
+filePath_run=$projectDir/scripts/beam_3d.py
+
+(... more ...)
+------------------------------------------------------------
+
+TERM_MEMLIMIT: job killed after reaching LSF memory usage limit.
+Exited with exit code 137.
+
+Resource usage summary:
+
+    CPU time :                                   2283.38 sec.
+    Max Memory :                                 37964 MB
+    Average Memory :                             25889.33 MB
+    Total Requested Memory :                     98304.00 MB
+    Delta Memory :                               60340.00 MB
+    Max Swap :                                   -
+    Max Processes :                              112
+    Max Threads :                                409
+    Run time :                                   75 sec.
+    Turnaround time :                            77 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./run_log/Error_24213933_1.err> for stderr output of this job.
+
